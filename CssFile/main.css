@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @import url(/CssFile/fonts.css);
+=======
+>>>>>>> mybranch
 *
 {
     margin: 0;
@@ -141,4 +144,136 @@ li, a , button
 .text-center
 {
     text-align: center;
+}
+#sell-header{
+    text-align: center;
+    /* font-size: 1.2em;
+    margin-top: 20px; */
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#satr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bestseller{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.sell-part{
+    width: 252px;
+    border: solid 1px #777;
+    text-align: center;
+    border-radius: 5px;
+    color: #666;
+}
+.sell-pic{
+    border-bottom: solid 1px #777;
+}
+.price{
+    font-family: rokkitt,Georgia,serif;
+}
+#btn-shop{
+    background-image: linear-gradient(to right, rgb(104, 101, 101) , rgb(187, 187, 183));
+    border: none;
+    width: 200px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.1em;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+    margin-bottom: 220px;
+}
+#btn-shop:hover{
+    padding: 17px 22px;
+    background-image: linear-gradient(to right, rgb(34, 33, 33) , rgb(97, 97, 96));
+    color: #fff;
+    box-shadow: 4px 5px 12px #666;
+    border: none;
+    
+}
+#partnerheader{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #b2b2b2;
+    margin-top: 230px;
+    margin-bottom: 20px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer{
+    margin-top: 160px;
+}
+#footer{
+    height: 60px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    margin-top: 75px;
+    color: #939393;
+   
+}
+#h222{
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: #939393;
+   
+}
+#information{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+#infop{
+    width: 80%;
+}
+.info{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+
+}
+.info a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #939393;
+    margin-bottom: 10px;
+   
+}
+.infoh{
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+.infoad{
+     color: #b0b0b0;
+     font-size: 0.7em;
+}
+#logos{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    
 }
