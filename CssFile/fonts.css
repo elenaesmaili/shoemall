@@ -1,0 +1,17 @@
+@font-face
+{
+    src: url(/fonts/OpenSans-SemiBold.ttf);
+    font-family: opensans;
+}
+
+@font-face
+{
+    src: url(/fonts/Jomolhari-Regular.ttf);
+    font-family: jomolhari;
+}
+
+@font-face
+{
+    src: url(/fonts/Roboto-Regular.ttf);
+    font-family: roboto;
+}
